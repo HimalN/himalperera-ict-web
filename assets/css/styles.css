@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Lexend:wght@100..900&family=Sen:wght@400..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1679AB;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+nav{
+    background-color: #03011F;
+    height: 50px;
+    width: 100%;
+}
+nav img{
+    padding:0 10px;
+}
+#logo{
+    color: white;
+    font-size: 15px;
+    font-family: Lexend;
+
+    position: relative;
+    top: -28px;
+    padding: 0 0px;
+    font-weight: bold;
+
+}
+#logo-1{
+    color: white;
+    font-size: 15px;
+    font-family: Lexend;
+
+    position: relative;
+    top: -10px;
+    left: -100px;
+    padding: 0 0px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-family: Lexend;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,.header-link:hover{
+    background: #1679AB;
+    transition: .5s;
+}
+.hero{
+    height: 91.58vh;
+    width: 100%;
+    background-color: #02001A;
+}
+.hero-image>img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    bottom: auto;
+}
+.main-text{
+    color: red;
+    font-family: "Abhaya Libre";
+    font-weight: bold;
+    font-size: 60px;
+
+    position: absolute;
+    top: 120px;
+    left: 650px;
+}
+.sub-text{
+    color: white;
+    font-family: "Abhaya Libre";
+    font-weight: bold;
+    font-size: 45px;
+
+    position: absolute;
+    top: 170px;
+    left: 700px;
+}
+.name{
+    color: white;
+    font-family: Lexend;
+    font-weight: bold;
+    font-size: 45px;
+
+    position: absolute;
+    top: 270px;
+    left: 880px;
+}
+.qualification{
+    color: white;
+    font-family: Lexend;
+    font-weight: bold;
+    font-size: 10px;
+
+    position: absolute;
+    top: 320px;
+    left: 930px;
+
+    text-align: right;
+}
+.buttons>button{
+    height: 50px;
+    width: 140px;
+    background-color: #1679AB;
+    border: none;
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+
+    position: relative;
+    top: 350px;
+    left: 73%;
+
+    margin: 0 10px;
+    cursor: pointer;
+}
+.buttons>button:hover{
+    background-color: #2FA4DF;
+    transition: .5s;
+}
+.social-icons>a>img{
+    position: relative;
+    top: 370px;
+    left: 71%;
+
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+footer>div>p{
+    position: absolute;
+    text-align: center;
+    top: 98%;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-family: "ABeeZee";
+    font-size: 10px;
+}
