@@ -87,19 +87,19 @@ a.active,.header-link:hover{
     background: #1679AB;
     transition: .5s;
 }
-.hero{
+.hero,.contact{
     height: 91.58vh;
     width: 100%;
     background-color: #02001A;
 }
 .hero-image>img{
-    height: 500px;
+    height: 520px;
     width: 400px;
     border-radius: 50px;
 
     position: absolute;
     left: 100px;
-    top: 80px;
+    top: 70px;
     bottom: auto;
 }
 .main-text{
@@ -119,7 +119,7 @@ a.active,.header-link:hover{
     font-size: 45px;
 
     position: absolute;
-    top: 170px;
+    top: 180px;
     left: 700px;
 }
 .name{
@@ -185,4 +185,11 @@ footer>div>p{
 
     font-family: "ABeeZee";
     font-size: 10px;
+}
+
+@media all and (min-width: 1440px){
+
+}
+@media all and (min-width: 360px){
+
 }
